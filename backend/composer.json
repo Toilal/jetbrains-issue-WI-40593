@@ -1,0 +1,13 @@
+{
+    "name": "root/backend",
+    "require": {
+        "phpunit/phpunit": "^7.0",
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": { "": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Tests\\": "tests/" }
+    }
+}
